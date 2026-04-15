@@ -115,6 +115,11 @@ h3{
 /*END OF MID MID SECTION*/
 
 /*BOT MID SECTION*/ 
+.bot-mid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .modal{
     background-color: #3882F6;
     display: flex;
@@ -122,6 +127,7 @@ h3{
     margin: 50px 200px 50px;
     padding: 25px;
     border-radius: 5px;
+    gap:50px;
 }
 
 .modal p, .modal button{
