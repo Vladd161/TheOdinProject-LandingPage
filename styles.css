@@ -102,3 +102,42 @@ h3{
     color: #1F2937;
     font-weight: 300;
 }
+
+/*END OF MID MID SECTION*/
+
+/*BOT MID SECTION*/ 
+.modal{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 50px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.modal p, .modal button{
+    color:#F9FAF8;
+}
+
+.modal p{
+    margin:0px;
+}
+
+.modal button{
+    background-color: #3882F6;
+    border-color: white;
+    align-self:center;
+    border-radius:5px;
+}
+/*END OF BOT MID SECTION*/
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #1F2937;
+    padding:12px;
+}
+
+.footer p{
+    color:#E5E7EB
+}
