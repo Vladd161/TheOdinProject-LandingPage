@@ -1,0 +1,44 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header{
+    flex: 2;
+    background-color: #1F2937;
+    padding: 1em;
+}
+
+.top-header ul li{
+    font-size:18px;
+    color:#E5E7EB;
+    list-style: none;
+}
+
+.top-header ul{
+    display:flex;
+    padding:0px;
+    margin:0px;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    margin-right:auto;
+}
+
+.bottom-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding:12px;
+}
+
+h1{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin:0px;
+}
