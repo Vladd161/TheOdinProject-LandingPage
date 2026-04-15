@@ -84,6 +84,9 @@ h3{
 .project-container img{
     height: 160px;
     width: 160px;
+    border:2px solid #3882F6;
+    border-radius:5px;
+    
 }
 /*END OF MIDDLE SECTION*/
 
