@@ -53,7 +53,11 @@ h1{
 
 /*END OF HEADER SECTION */
 
-/*TOP MIDDLE SECTION*/
+/*TOP MID SECTION*/
+.top-mid-section{
+    flex:2;
+    padding: 0px 200px 20px;
+}
 h3{
     font-size: 36px;
     color: #1F2937;
@@ -64,10 +68,20 @@ h3{
 .projects{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .project-container{
-    width: 300px;
+    width: 160px;
+    text-align: center;
+}
+
+.project-container img{
+    height: 160px;
+    width: 160px;
 }
 /*END OF MIDDLE SECTION*/
+
+/*MID MID Section*/
